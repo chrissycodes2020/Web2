@@ -6,9 +6,10 @@ body{
 
 }
 
-#toggleAssist,ul.nav-links{
+input#toggleAssist,ul.nav-links{
     display:none;
 }
+
 
 #toggleAssist:checked + ul.nav-links{
     display:block;
