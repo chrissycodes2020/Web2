@@ -6,10 +6,6 @@ body{
 
 }
 
-nav{
-    display:block;
-}
-
 #toggleAssist,ul.nav-links{
     display:none;
 }
