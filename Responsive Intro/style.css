@@ -34,7 +34,19 @@ input#toggleAssist,ul.nav-links{
 }
 
 nav{
-    background-color: black;
+    position:fixed;
+    height: 20px;
+}
+
+#logoabsolute{
+    position: absolute;
+    top:80px;
+    left:20px;
+    width:50%;
+}
+
+label{
+    color: white;
 }
 
 li{
@@ -47,5 +59,10 @@ a{
     color: white;
     padding-right:6px;
     padding-left:6px;
-    padding-top:6px;
+    display: center;
+    height:0px;
+}
+
+ul{
+    margin:0px;
 }
