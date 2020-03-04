@@ -74,11 +74,8 @@ ul.nav-links li{
     display: inline;
     padding:1px;
     margin:6px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
     font-family:'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 ul.nav-links a{
@@ -87,7 +84,7 @@ ul.nav-links a{
     height:0px;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 
+
 }
 
 ul.nav-links{
@@ -101,3 +98,20 @@ ul.nav-links{
     float:right;
     margin:6px;
 }
+
+@media(min-width:550px) {
+    .toggle-button{
+        display: none;
+    }
+
+    ul.nav-links{
+    display: block;
+    float:right;
+    margin-top: 20px;
+    }
+
+    ul.nav-liks li{
+        display:inline-block;
+    }
+}
+/* END OF MID-SCREEN MEDIA QUERY */
