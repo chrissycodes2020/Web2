@@ -14,6 +14,7 @@ input#toggleAssist,ul.nav-links{
     display:block;
 }
 
+
 .topimagecontainer{
     width: 375px;
     height: 200px;
@@ -23,7 +24,7 @@ input#toggleAssist,ul.nav-links{
 .midimagecontainer{
     width: 125px;
     height: 180px;
-    display: inline;
+    display: inline-block;
     margin-right:auto;
     margin-left: 36px;
     padding-left: 4px;
@@ -56,6 +57,10 @@ p{
 nav{
     position:fixed;
     height: 20px;
+}
+
+.logo{
+    float: right;
 }
 
 #logoabsolute{
@@ -96,6 +101,8 @@ ul.nav-links{
 .toggle-button{
     width:22px;
     float:right;
+    top:4px;
+    left:332px;
     margin:6px;
 }
 
@@ -106,7 +113,7 @@ ul.nav-links{
 
     ul.nav-links{
     display: block;
-    float:right;
+    float: right;
     margin-top: 20px;
     }
 
