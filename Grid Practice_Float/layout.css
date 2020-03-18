@@ -9,6 +9,15 @@ img {
   width: 175px;
 }
 
+#toggleAssist:checked + ul.nav-links {
+  display: block;
+}
+
+input#toggleAssist,
+ul.nav-links {
+  display: none;
+}
+
 /* START SMALL SCREEN VIEW */
 
 .w-100 {
