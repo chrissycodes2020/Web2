@@ -1,0 +1,52 @@
+.floater {
+  float: left;
+  min-height: 250px;
+  min-width: 175;
+}
+
+img {
+  height: 450px;
+  width: 175px;
+}
+
+/* START SMALL SCREEN VIEW */
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-33 {
+  width: 33%;
+}
+
+/* END SMALL SCREEN VIEW */
+
+/* START MEDIUM SCREEN VIEW */
+
+@media (min-width: 550px) {
+  .w-md-100 {
+    width: 100%;
+  }
+
+  .w-md-50 {
+    width: 50%;
+  }
+}
+
+/* END MEDIUM SCREEN VIEW */
+
+/* START LARGE SCREEN VIEW */
+
+@media (min-width: 960px) {
+  .w-lg-50 {
+    width: 50%;
+  }
+
+  .w-lg-100 {
+    width: 100%;
+  }
+}
