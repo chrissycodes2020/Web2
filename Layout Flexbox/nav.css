@@ -9,6 +9,7 @@ nav .logo {
 
 nav .logo-container {
   background-color: pink;
+  width: 100%;
 }
 
 nav img {
@@ -25,9 +26,37 @@ nav a {
 
 nav ul {
   list-style: none;
-  padding: 4px;
+  padding: 10px;
 }
 
 .link-flex {
   margin: 6px;
+}
+
+@media (min-width: 500px) {
+}
+
+@media (min-width: 960px) {
+  nav.flex {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  nav .logo {
+    max-width: 100%;
+  }
+  nav ul.flex {
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 3;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    background-color: pink;
+  }
+
+  nav a {
+    padding: 10px;
+    color: white;
+  }
 }
