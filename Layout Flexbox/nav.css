@@ -9,7 +9,6 @@
 }
 
 .flex-images {
-  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -19,7 +18,7 @@ nav .logo {
 }
 
 nav .logo-container {
-  background-color: pink;
+  background-color: white;
   width: 100%;
 }
 
@@ -35,9 +34,12 @@ nav a {
   color: black;
 }
 
-nav ul {
+nav ul li {
   list-style: none;
-  padding: 10px;
+  padding: 14px;
+}
+ul.flex {
+  background-color: pink;
 }
 
 .link-flex {
@@ -105,28 +107,10 @@ nav ul {
     height: 400px;
     margin: 0px;
   }
-  .flex-image-container2{
+  .flex-image-container2 {
     margin: 0px;
     width: 960px;
     display: flex;
     flex-direction: row;
-    align-items: stretch;
-  }
-
-  .flex-images2 {
-    display: flex;
-    flex-direction: row;
-    width: 350px;
-    height: 400px;
-    margin: 0px;
-  }
-  .flex-images3 {
-      display:flex;
-      flex-direction: row;
-      width:700px;
-      height:400px;
-  }
-
-
   }
 }
