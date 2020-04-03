@@ -1,0 +1,59 @@
+body {
+  margin: 0px;
+}
+
+header {
+  width: 100%;
+}
+
+input#toggleAssist {
+  display: none;
+}
+input#toggleAssist,
+ul.nav-links {
+  display: none;
+}
+
+#toggleAssist:checked + ul.nav-links {
+  display: block;
+}
+
+.toggle-button {
+  width: 42px;
+  float: right;
+  margin: 8px;
+}
+
+ul.nav-links {
+  list-style: none;
+  margin: 0px;
+  padding: 22px;
+}
+
+.nav-links li {
+  padding: 20px;
+  border-bottom: solid black 2px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+}
+
+@media (min-width: 450px) {
+  main {
+    width: 400px;
+  }
+}
+
+@media (min-width 768px) {
+  main {
+    width: 400px;
+  }
+}
