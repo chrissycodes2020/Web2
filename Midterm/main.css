@@ -1,3 +1,6 @@
+@import url("colors.css");
+
+/* HEADER + NAV */
 body {
   margin: 0px;
 }
@@ -5,7 +8,11 @@ body {
 header {
   width: 100%;
 }
-
+.logo {
+  max-width: 200px;
+  margin: 8px;
+  margin: 10px;
+}
 input#toggleAssist {
   display: none;
 }
@@ -41,9 +48,41 @@ ul.nav-links {
   color: black;
 }
 
+/* MAIN + GRID CONTAINER (MOBILE VIEW) */
+
 main {
   width: 100%;
   margin: auto;
+}
+
+.grid-container {
+  display: grid;
+
+  grid-template-rows: [h-line-1] 1fr [h-line-2] 1fr [h-line-3] 1fr [h-line-4] 1fr [h-line-5];
+  grid-template-columns: [v-line-1] 1fr [v-line-2] 1fr [v-line-3];
+
+  grid-gap: 20px;
+  height: 100vh;
+}
+
+.a-img {
+  grid-row: 1/2;
+  grid-column: 1/4;
+}
+
+.b-img {
+  grid-row: 2/3;
+  grid-column: 1/4;
+}
+
+.c-img {
+  grid-row: 3/4;
+  grid-column: 1/4;
+}
+
+.d-img {
+  grid-row: 4/5;
+  grid-column: 1/4;
 }
 
 @media (min-width: 450px) {
@@ -52,8 +91,13 @@ main {
   }
 }
 
-@media (min-width 768px) {
+@media (min-width: 768px) {
   main {
     width: 400px;
+  }
+  /* NAV SWITCH + MAIN GRID MEDIUM SCREEN */
+
+  .toggle-button {
+    display: none;
   }
 }
