@@ -67,7 +67,10 @@ main {
 }
 .juice-image {
   max-width: 100%;
-  justify-content: center;
+}
+.box.a-img {
+  display: flex;
+  align-items: center;
 }
 .a-img {
   grid-row: 1/2;
@@ -76,18 +79,68 @@ main {
 
 .a-img h1 {
   text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin-top: -80px;
+  margin-left: -42px;
+  color: black;
+  background-color: lightgray;
+  opacity: 78%;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 8px;
 }
-
+.box.b-img {
+  display: flex;
+  align-items: center;
+}
 .b-img {
   grid-row: 2/3;
   grid-column: 1/4;
 }
 .b-img h1 {
   text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -62px;
+  margin-left: -70px;
+  color: black;
+  background-color: lightgray;
+  opacity: 78%;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.box.c-img {
+  display: flex;
+  align-items: center;
 }
 .c-img {
   grid-row: 3/4;
   grid-column: 1/4;
+}
+
+.c-img h1 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 220px;
+  margin-left: -42px;
+  color: black;
+  background-color: lightgray;
+  opacity: 78%;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.box.d-img {
+  display: flex;
+  align-items: center;
 }
 
 .d-img {
@@ -95,8 +148,24 @@ main {
   grid-column: 1/4;
 }
 
+.d-img h1 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 520px;
+  margin-left: -42px;
+  color: black;
+  background-color: lightgray;
+  opacity: 78%;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
 .footer-logo {
   max-width: 200px;
+  margin-top: 190px;
   padding: 20px;
 }
 
