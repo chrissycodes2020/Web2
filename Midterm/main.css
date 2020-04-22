@@ -50,6 +50,15 @@ ul.nav-links {
   color: black;
 }
 
+h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #18c29c;
+}
+
 /* MAIN + GRID CONTAINER (MOBILE VIEW) */
 
 main {
