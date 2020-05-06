@@ -3,14 +3,11 @@ body {
   margin: 0px;
 }
 .delivery-h1 {
-  padding-left: 12px;
-  font-family: "Pacifico", cursive;
-  text-align: left;
-  margin-left: 15px;
-  margin-top: -20px;
-  letter-spacing: 2px;
+  font-family: "Allura", cursive;
+  text-align: center;
+  letter-spacing: -2px;
   color: #18c29c;
-  font-size: 15px;
+  font-size: 22px;
 }
 
 p {
@@ -20,9 +17,6 @@ p {
   line-height: 17px;
   font-size: 10px;
   padding: 8px;
-  margin-top: -24px;
-  margin-right: 40px;
-  margin-left: 18px;
 }
 
 .title-style {
@@ -332,7 +326,7 @@ p {
 
   .delivery-h1 {
     padding-left: 12px;
-    font-family: "Pacifico", cursive;
+    font-family: "Allura", cursive;
     text-align: left;
     margin-left: 15px;
     margin-top: 5px;
