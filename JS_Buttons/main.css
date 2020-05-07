@@ -1,0 +1,20 @@
+#header1 {
+  color: black;
+}
+.pane {
+  width: 100%;
+  height: 200px;
+}
+
+#tealPane {
+  background-color: teal;
+}
+
+.pane2 {
+  width: 100%;
+  height: 200px;
+}
+
+#orangePane {
+  background-color: orange;
+}
