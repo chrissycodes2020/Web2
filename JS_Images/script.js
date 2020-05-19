@@ -1,21 +1,23 @@
 var response = prompt("Hello. " + "Whats your name?");
 var myHeader = document.getElementById("header1");
+var hColorChangeButton = document.getElementById("headerControlButton");
+var breatheImageOne = document.getElementById("breatheInImage");
+var breatheButton = document.getElementById("breatheControlButton");
 
-var today = new Date();
-var hourNow = today.getHours();
-var greeting;
-
-myHeader.style.color = "black";
-myHeader.style.backgroundColor = "teal";
 myHeader.innerText = "Hello, " + response;
 
-if (hourNow > 18) {
-  greeting = "Good evening";
-} else if (hourNow > 12) {
-  greeting = "Good afternoon";
-} else if (hourNow > 0) {
-  greeting = "Good morning";
-} else {
-  greeting = "Welcome";
-}
-document.write(greeting);
+var myheaderColorChange = function () {
+  var redComp = Math.random() * 255;
+  console.log(redComp);
+  var greenComp = Math.random() * 255;
+  var blueComp = Math.random() * 255;
+  myHeader.style.backgroundColor =
+    "rgb(" + redComp + ", " + greenComp + ", " + blueComp + ")";
+};
+
+var breatheImageSwap = function () {
+  breatheImageOne.src = "Images/Java Images-02.jpg";
+};
+
+hColorChangeButton.addEventListener("click", myheaderColorChange);
+breatheButton.addEventListener("click", breatheImageSwap);
