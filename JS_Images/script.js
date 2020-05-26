@@ -16,23 +16,21 @@ var myheaderColorChange = function () {
 };
 
 var breatheImageSwap = function () {
-if(breatheInImage.alt == "First breathing step"){
+  if(breatheInImage.alt == "First breathing step");
   breatheImageOne.src = "Images/Java Images-02.jpg";
-  breatheInImage.alt = 
+
 
 }
-
-else {
-
-
+else { //otherwise 
 
 
 }
 
+}
 
 
-  breatheImageOne.src = "Images/Java Images-02.jpg";
-};
+
+
 
 hColorChangeButton.addEventListener("click", myheaderColorChange);
 breatheButton.addEventListener("click", breatheImageSwap);
