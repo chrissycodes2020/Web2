@@ -5,8 +5,10 @@ var hColorChangeButton = document.getElementById("headerControlButton");
 var breatheImageOne = document.getElementById("breatheInImage");
 var breatheButton = document.getElementById("breatheControlButton");
 
+myHeader.style.color = "black";
+myHeader.style.fontFamily = "Times New Roman";
+myHeader.style.fontSize = "60px";
 myHeader.innerText = "Hello, " + response;
-myHeader.style.color = "green";
 
 var myHeaderColorChange = function () {
   var redComp = Math.random() * 255;
@@ -18,25 +20,22 @@ var myHeaderColorChange = function () {
 };
 
 var swapBreatheImage = function () {
-  if(breatheImageOne.alt == "First breathing step");
-  breatheImageOne.src = "Images/Java Images-02.jpg";
+  console.log(breatheImageOne.alt);
 
+  if (breatheImageOne.alt == "First breathing step") {
+    breatheImageOne.src = "Images/Java Images-03.jpg";
+    breatheImageOne.alt = "Second breathe image";
+  } else {
+    //otherwise
 
-
-}
-else { //otherwise 
-
-
-}
-
-}
-
-
-
+    breatheImageOne.src = "Images/Java Images-01.jpg";
+    breatheImageOne.alt = "First breathing step";
+  }
+};
 
 //just when the JS loads
 myHeaderColorChange();
 //when the button is clicked
-hColorChangeButton.addEventListener("click", myheaderColorChange);
+hColorChangeButton.addEventListener("click", myHeaderColorChange);
 
 breatheButton.addEventListener("click", swapBreatheImage);
