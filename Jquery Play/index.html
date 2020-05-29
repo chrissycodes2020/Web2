@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" type="text/css" media="screen" />
+    <title>Jquery Play</title>
+  </head>
+  <body>
+    <div class="testOne">
+      <header id="headerAni">HELLO THERE FRIENDS</header>
+    </div>
+
+    <p>This is a test to see what the fuck is happening</p>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        //start here jquery here
+        $(".testOne").hover(function () {
+          $("#headerAni").slideToggle("slow");
+        });
+      }); //end of document ready
+    </script>
+  </body>
+</html>
