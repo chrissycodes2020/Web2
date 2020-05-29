@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Jquery Intro</title>
   </head>
   <body>
     <main>
@@ -60,28 +60,14 @@
       $("#toggleButton").click(function () {
           $('.hideable-img').toggle();
       })
-
-      $("#fadeOutBtn").click(function () {
-          $('.hideable-image').fadeOut(4000, function () {
-              $('.images').append('<h1>Image Hidden Now!</h1>')
+      
+      $("#slideUpButton").click(function () {
+          $('.hideable-img').fadeOut("slow", function(){
+            $(".images").append('<h1>Image Hidden Now!</h1>')
           });
+          
       })
 
-      $("#fadeToggleBtn").click(function () {
-        $('.hideable-img').fadeToggle(2000);
-      })
-
-      $('#customAnim').click(function () {
-        $('.hideable-img').slideUp(2000);
-      })
-
-      $('#customAnim').click(function () {
-        $('.hideable-img').animate({
-          height: "0px",
-          width: "920px",
-          marginBottom: "657px"
-        }, 2000);
-        })//end of customAnim click
 
       })//end of document ready
 
