@@ -9,3 +9,21 @@
   padding: 1.5rem;
   border-radius: 1rem;
 }
+
+img {
+  max-width: 150px;
+}
+
+.product-cart {
+  background-image: url(https://maxcdn.icons8.com/Share/icon/nolan/Shopping/shopping_cart1600.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 200px;
+  background-color: peachpuff;
+
+  min-height: 200px;
+}
+
+.product-cart p {
+  text-align: center;
+}

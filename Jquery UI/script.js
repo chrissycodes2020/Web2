@@ -1,7 +1,15 @@
 $(document).ready(function () {
-  $(".draggable").draggable();
-});
+  var numProducts = 0;
 
-$("droppable")
-  .droppable //add some other stuff here
-  ();
+  $(".draggable").draggable();
+
+  $(".droppable").droppable({
+    drop: function () {
+      numProducts++;
+
+      $(".product-cart")
+        .find("h3")
+        .text("You have " + numProducts + " in your cart.");
+    },
+  });
+});
