@@ -1,15 +1,21 @@
 $(document).ready(function () {
   var numProducts = 0;
 
-  $(".draggable").draggable();
+  $(".draggable").draggable({ revert: "invalid" });
 
   $(".droppable").droppable({
     drop: function () {
       numProducts++;
+      var plural = "";
+      if (numProducts > 1) {
+        plural = "s";
+      }
 
       $(".product-cart")
         .find("h3")
-        .text("You have " + numProducts + " in your cart.");
+        .text(
+          "You now have " + numProducts + " product" + plural + " in your cart."
+        );
     },
   });
 });

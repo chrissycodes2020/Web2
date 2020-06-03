@@ -27,3 +27,7 @@ img {
 .product-cart p {
   text-align: center;
 }
+
+.product-cart h3 {
+  text-align: right;
+}
