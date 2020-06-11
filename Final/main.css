@@ -66,17 +66,7 @@ main {
   margin-top: 6px;
 }
 
-.grid-container-about {
-  display: grid;
-
-  grid-template-rows: [h-line-1] 1fr [h-line-2] 1fr [h-line-3] 1fr [h-line-4] 1fr [h-line-5] 1fr;
-  grid-template-columns: [v-line-1] 1fr [v-line-2] 1fr [v-line-3] 1fr [v-line-4];
-
-  grid-gap: 8px;
-  height: 100vh;
-}
-
-.box .b-text p {
+.b-text p {
   color: white;
   text-align: center;
   padding: 16px;
@@ -87,18 +77,19 @@ main {
   letter-spacing: 2px;
 }
 
-.box .b-text h1 {
+.b-text h1 {
   font-family: "Permanent Marker", cursive;
   margin: 16px;
   text-align: center;
   letter-spacing: 4px;
+  color: blue;
 }
 
 .box .c-image {
   padding-bottom: 26px;
 }
 
-.box .d-footer h1 {
+.d-textfooter h1 {
   font-family: "Permanent Marker", cursive;
   margin-left: 58px;
   text-align: center;
@@ -106,12 +97,104 @@ main {
   letter-spacing: 4px;
   font-size: 24px;
   display: inline;
+  color: blue;
+}
+
+.box .d-textfooter {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .social-icon {
-  max-width: 14%;
+  max-width: 10%;
   display: block;
   margin: auto;
   padding: 6px;
   border: solid 2px;
+}
+
+@media (min-width: 450px) {
+  main {
+    width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    width: 760px;
+    margin-top: 12px;
+  }
+  /* NAV SWITCH + MAIN GRID MEDIUM SCREEN */
+
+  .grid-container {
+    width: 760px;
+  }
+
+  .toggle-button {
+    width: 140px;
+    float: right;
+    margin: 6px;
+  }
+
+  ul.nav-links {
+    display: block;
+    float: left;
+  }
+
+  .nav-links li {
+    display: inline-block;
+    padding: 10px;
+    border-bottom: none;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    list-style: none;
+    font-family: "Permanent Marker", cursive;
+    color: white;
+    padding: 19px;
+    font-size: 20px;
+    margin: none;
+    margin: 0px;
+  }
+
+  .b-text h1 {
+    font-family: "Permanent Marker", cursive;
+    margin: 24px;
+    text-align: left;
+    letter-spacing: 4px;
+    color: blue;
+    font-size: 46px;
+  }
+
+  .b-text p {
+    color: white;
+    text-align: left;
+    padding: 16px;
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    line-height: 44px;
+    padding: 26px;
+    letter-spacing: 2px;
+    font-size: 20px;
+  }
+
+  .d-textfooter h1 {
+    font-family: "Permanent Marker", cursive;
+    margin-left: 134px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 48px;
+    display: inline;
+    color: blue;
+  }
+
+  .social-icon {
+    max-width: 8%;
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+    padding: 8px;
+    border: solid 2px;
+  }
 }
