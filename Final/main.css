@@ -1,0 +1,109 @@
+header {
+  max-width: 100%;
+  margin: auto;
+}
+
+nav li {
+  display: block;
+  padding: 16px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+}
+
+.nav-links li {
+  border-bottom: solid black 2px;
+  margin-top: 8px;
+  max-width: 110px;
+  letter-spacing: 4px;
+}
+
+ul.nav-links {
+  background-color: blue;
+  padding: 12px;
+}
+
+.logo {
+  max-width: 100px;
+  display: center;
+}
+
+input#toggleAssist {
+  display: none;
+}
+
+input#toggleAssist,
+ul.nav-links {
+  display: none;
+}
+
+#toggleAssist:checked + ul.nav-links {
+  display: block;
+  text-align: left;
+}
+
+.toggle-button {
+  width: 82px;
+  float: right;
+  margin: 6px;
+}
+
+body {
+  margin: 0px;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+}
+
+.main-image {
+  max-width: 100%;
+  margin-top: 6px;
+}
+
+.grid-container-about {
+  display: grid;
+
+  grid-template-rows: [h-line-1] 1fr [h-line-2] 1fr [h-line-3] 1fr [h-line-4] 1fr [h-line-5] 1fr;
+  grid-template-columns: [v-line-1] 1fr [v-line-2] 1fr [v-line-3] 1fr [v-line-4];
+
+  grid-gap: 8px;
+  height: 100vh;
+}
+
+.box.b-text {
+  background-color: blue;
+}
+
+.box .b-text p {
+  color: white;
+  text-align: center;
+  padding: 16px;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  line-height: 32px;
+  padding: 22px;
+  letter-spacing: 2px;
+}
+
+.box .b-text h1 {
+  font-family: "Permanent Marker", cursive;
+  margin: 16px;
+  text-align: center;
+  padding-top: 16px;
+  letter-spacing: 4px;
+}
+
+.box .c-footer h1 {
+  font-family: "Permanent Marker", cursive;
+  margin-left: 25px;
+  text-align: center;
+  padding: 0px;
+  letter-spacing: 4px;
+  font-size: 24px;
+}
