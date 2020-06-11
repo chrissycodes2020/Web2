@@ -16,14 +16,14 @@ nav li {
 }
 
 .nav-links li {
-  border-bottom: solid black 2px;
+  border-bottom: solid black 12px;
   margin-top: 8px;
   max-width: 110px;
   letter-spacing: 4px;
 }
 
 ul.nav-links {
-  background-color: blue;
+  background-color: #0000ff;
   padding: 12px;
 }
 
@@ -76,10 +76,6 @@ main {
   height: 100vh;
 }
 
-.box.b-text {
-  background-color: blue;
-}
-
 .box .b-text p {
   color: white;
   text-align: center;
@@ -95,15 +91,27 @@ main {
   font-family: "Permanent Marker", cursive;
   margin: 16px;
   text-align: center;
-  padding-top: 16px;
   letter-spacing: 4px;
 }
 
-.box .c-footer h1 {
+.box .c-image {
+  padding-bottom: 26px;
+}
+
+.box .d-footer h1 {
   font-family: "Permanent Marker", cursive;
-  margin-left: 25px;
+  margin-left: 58px;
   text-align: center;
-  padding: 0px;
+  padding-bottom: 24px;
   letter-spacing: 4px;
   font-size: 24px;
+  display: inline;
+}
+
+.social-icon {
+  max-width: 14%;
+  display: block;
+  margin: auto;
+  padding: 6px;
+  border: solid 2px;
 }
