@@ -1,3 +1,5 @@
+/* landing about page main css */
+
 header {
   max-width: 100%;
   margin: auto;
@@ -50,6 +52,7 @@ ul.nav-links {
   width: 82px;
   float: right;
   margin: 6px;
+  clear: left;
 }
 
 body {
@@ -162,6 +165,26 @@ main {
     margin: 0px;
   }
 
+  nav.flex {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  nav ul.nav-links {
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 3;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    background-color: black;
+  }
+
+  .main-image {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
   .b-text h1 {
     font-family: "Permanent Marker", cursive;
     margin: 24px;
@@ -204,15 +227,31 @@ main {
 }
 
 @media (min-width: 1200px) {
+  header {
+    width: 1200px;
+    margin-top: 12px;
+  }
   main {
     width: 1200px;
     margin-top: 12px;
   }
-  /* DesktopView */
 
-  body {
-    margin: 22px;
+  nav.flex {
+    flex-direction: row;
+    justify-content: center;
   }
+
+  nav ul.nav-links {
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 3;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    background-color: black;
+  }
+
+  /* DesktopView */
 
   .grid-container {
     width: 1200px;
@@ -268,11 +307,45 @@ main {
 
   .d-textfooter {
     grid-row: 3;
-    grid-column: 1/4;
+    grid-column: 1/3;
   }
 
-  .d-socialicon {
-    grid-row: 4;
-    grid-column: 2/3;
+  .d-textfooter h1 {
+    font-family: "Permanent Marker", cursive;
+    margin-left: 28px;
+    padding-right: 102px;
+    text-align: left;
+    letter-spacing: 4px;
+    font-size: 48px;
+    display: inline;
+    color: blue;
   }
+
+  .social-icon {
+    grid-row: 3;
+    grid-column: 3/4;
+  }
+}
+
+/* contact page main css */
+
+.float-hide {
+  font-family: "Permanent Marker", cursive;
+  text-align: left;
+  letter-spacing: 4px;
+  color: white;
+}
+
+.contact-container h1 {
+  font-family: "Permanent Marker", cursive;
+  margin: 30px;
+  text-align: left;
+  letter-spacing: 4px;
+  color: blue;
+}
+
+.toggle-button-contact {
+  width: 86px;
+  float: right;
+  margin-right: 134px;
 }
