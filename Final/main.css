@@ -2,7 +2,7 @@
 
 header {
   max-width: 100%;
-  margin: auto;
+  margin: 0px;
 }
 
 nav li {
@@ -107,6 +107,21 @@ main {
   color: blue;
 }
 
+.d-textfooter button {
+  display: block;
+  font-size: 26px;
+  background-color: blue;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  border-radius: 14px;
+  border: none;
+  margin-left: 107px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 160px;
+  padding: 8px;
+}
+
 .box .d-textfooter {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -118,6 +133,83 @@ main {
   margin: auto;
   padding: 6px;
   border: solid 2px;
+}
+
+/* contact page mobile view */
+
+.float-hide {
+  font-family: "Permanent Marker", cursive;
+  text-align: left;
+  letter-spacing: 4px;
+  color: white;
+}
+
+.contact-container h1 {
+  font-family: "Permanent Marker", cursive;
+  margin: 24px;
+  text-align: left;
+  letter-spacing: 4px;
+  color: white;
+  padding-top: 16px;
+}
+
+.toggle-button-contact {
+  width: 86px;
+  float: right;
+  margin-right: 16px;
+  margin-top: -6px;
+}
+
+.contact-container {
+  margin-top: 0px;
+  background-color: black;
+}
+
+.contact-container p {
+  color: white;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  line-height: 32px;
+  padding-left: 20px;
+  padding-right: 12px;
+  padding-top: 12px;
+  text-decoration: uppercase;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.form-container {
+  padding-right: 16px;
+}
+
+.form-container p {
+  padding-right: 48px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 6px;
+}
+
+.form-container textarea {
+  height: 160px;
+  width: 260px;
+  margin-left: 16px;
+}
+
+.form-container button {
+  margin: 16px;
+  padding: 8px;
+  font-size: 26px;
+  background-color: blue;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  border-radius: 14px;
+  border: none;
+  margin-left: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 160px;
 }
 
 @media (min-width: 450px) {
@@ -177,7 +269,7 @@ main {
     text-align: center;
     align-items: center;
     margin: 0px;
-    background-color: black;
+    background-color: blue;
   }
 
   .main-image {
@@ -224,6 +316,69 @@ main {
     padding: 8px;
     border: solid 2px;
   }
+
+  /* Medium View Contact Page */
+
+  .contact-container {
+    padding-bottom: 6px;
+    background-color: black;
+    margin-top: 38px;
+    margin-right: 42px;
+    margin-left: 42px;
+    margin-bottom: 42px;
+  }
+
+  .contact-container form {
+    margin-left: 50px;
+  }
+
+  .toggle-button-contact {
+    width: 140px;
+    float: right;
+    margin: 6px;
+  }
+
+  p.black-background {
+    width: 406px;
+  }
+
+  .contact-container h1 {
+    font-family: "Permanent Marker", cursive;
+    margin-left: 74px;
+    text-align: left;
+    font-size: 56px;
+    letter-spacing: 4px;
+    color: white;
+    padding-top: 16px;
+  }
+
+  .form-container input {
+    width: 64%;
+    display: block;
+    padding: 8px;
+  }
+
+  .form-container textarea {
+    height: 160px;
+    width: 364px;
+    margin-left: 16px;
+  }
+
+  .form-container button {
+    margin: 16px;
+    padding: 8px;
+    font-size: 26px;
+    background-color: blue;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    border-radius: 14px;
+    border: none;
+    margin-left: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 160px;
+    display: block;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -248,7 +403,7 @@ main {
     text-align: center;
     align-items: center;
     margin: 0px;
-    background-color: black;
+    background-color: blue;
   }
 
   /* DesktopView */
@@ -325,27 +480,18 @@ main {
     grid-row: 3;
     grid-column: 3/4;
   }
-}
 
-/* contact page main css */
+  /* contact page desktop view */
 
-.float-hide {
-  font-family: "Permanent Marker", cursive;
-  text-align: left;
-  letter-spacing: 4px;
-  color: white;
-}
+  .toggle-button-contact {
+    width: 140px;
+    float: right;
+    margin: 6px;
+  }
 
-.contact-container h1 {
-  font-family: "Permanent Marker", cursive;
-  margin: 30px;
-  text-align: left;
-  letter-spacing: 4px;
-  color: blue;
-}
-
-.toggle-button-contact {
-  width: 86px;
-  float: right;
-  margin-right: 134px;
+  .form-container input {
+    width: 56%;
+    display: block;
+    padding: 8px;
+  }
 }
