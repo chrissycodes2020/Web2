@@ -33,6 +33,14 @@ a:hover {
   color: black;
   transition: 0.5s;
 }
+button a:hover{
+  color:white;
+  transition: .5s;
+}
+
+button :active{
+  color:black;
+}
 
 .logo {
   max-width: 100px;
