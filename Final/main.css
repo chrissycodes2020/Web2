@@ -29,6 +29,11 @@ ul.nav-links {
   padding: 12px;
 }
 
+a:hover {
+  color: black;
+  transition: 0.5s;
+}
+
 .logo {
   max-width: 100px;
   display: center;
@@ -73,6 +78,15 @@ main {
   max-width: 100%;
 }
 
+.main-image-about {
+  max-width: 100%;
+}
+
+.main-image3 {
+  max-width: 100%;
+  margin-top: -44px;
+}
+
 .b-text p {
   color: white;
   text-align: center;
@@ -89,7 +103,7 @@ main {
   margin: 16px;
   text-align: center;
   letter-spacing: 4px;
-  color: blue;
+  color: black;
 }
 
 .box .c-image {
@@ -98,13 +112,21 @@ main {
 
 .d-textfooter h1 {
   font-family: "Permanent Marker", cursive;
-  margin-left: 58px;
+  margin: 16px;
   text-align: center;
-  padding-bottom: 24px;
   letter-spacing: 4px;
-  font-size: 24px;
-  display: inline;
-  color: blue;
+  color: black;
+}
+
+.d-textfooter p {
+  color: white;
+  text-align: center;
+  padding: 16px;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  line-height: 32px;
+  padding: 22px;
+  letter-spacing: 2px;
 }
 
 .d-textfooter button {
@@ -133,6 +155,61 @@ main {
   margin: auto;
   padding: 6px;
   border: solid 2px;
+}
+
+/* about page mobile view */
+
+.b-text-about h1 {
+  font-family: "Permanent Marker", cursive;
+  margin: 16px;
+  text-align: center;
+  letter-spacing: 4px;
+  color: black;
+}
+
+.b-text-about p {
+  color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  line-height: 32px;
+  padding: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+
+.d-textfooter-about p {
+  color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  line-height: 32px;
+  padding: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 66px;
+}
+
+.d-textfooter-about h1 {
+  font-family: "Permanent Marker", cursive;
+  margin: 16px;
+  text-align: center;
+  letter-spacing: 4px;
+  color: black;
+}
+
+.d-footer-about button {
+  display: block;
+  font-size: 26px;
+  background-color: blue;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  border-radius: 14px;
+  border: none;
+  margin-left: 297px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 180px;
+  padding: 16px;
 }
 
 /* contact page mobile view */
@@ -251,25 +328,28 @@ main {
     list-style: none;
     font-family: "Permanent Marker", cursive;
     color: white;
-    padding: 19px;
+    padding-left: 20px;
     font-size: 20px;
     margin: none;
     margin: 0px;
+  }
+
+  a:hover {
+    color: blue;
+    transition: 0.5s;
   }
 
   nav.flex {
     flex-direction: row;
     justify-content: center;
   }
-
   nav ul.nav-links {
     flex-direction: row;
-    justify-content: flex-end;
     flex-grow: 3;
-    text-align: center;
-    align-items: center;
+    align-items: flex-start;
     margin: 0px;
-    background-color: blue;
+    width: 75%;
+    background-color: black;
   }
 
   .main-image {
@@ -282,7 +362,7 @@ main {
     margin: 24px;
     text-align: left;
     letter-spacing: 4px;
-    color: blue;
+    color: black;
     font-size: 46px;
   }
 
@@ -298,14 +378,19 @@ main {
     font-size: 20px;
   }
 
-  .d-textfooter h1 {
+  .d-textfooter button {
+    display: block;
+    font-size: 26px;
+    background-color: blue;
+    color: white;
     font-family: "Permanent Marker", cursive;
-    margin-left: 134px;
-    text-align: center;
-    letter-spacing: 4px;
-    font-size: 48px;
-    display: inline;
-    color: blue;
+    border-radius: 14px;
+    border: none;
+    margin-left: 297px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 180px;
+    padding: 16px;
   }
 
   .social-icon {
@@ -315,6 +400,65 @@ main {
     margin-top: 16px;
     padding: 8px;
     border: solid 2px;
+  }
+
+  /* Medium View About Page */
+
+  .grid-container {
+    width: 760px;
+  }
+
+  .main-image-about {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .b-text-about h1 {
+    font-family: "Permanent Marker", cursive;
+    margin: 24px;
+    text-align: left;
+    letter-spacing: 4px;
+    color: black;
+    font-size: 46px;
+  }
+
+  .b-text-about p {
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    line-height: 44px;
+    padding: 26px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 66px;
+  }
+
+  .d-textfooter-about h1 {
+    font-family: "Permanent Marker", cursive;
+    margin: 24px;
+    text-align: left;
+    letter-spacing: 4px;
+    color: black;
+    font-size: 46px;
+  }
+
+  .main-image3 {
+    max-width: 100%;
+  }
+
+  .d-textfooter-about p {
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    line-height: 44px;
+    padding: 26px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 66px;
   }
 
   /* Medium View Contact Page */
@@ -398,15 +542,26 @@ main {
 
   nav ul.nav-links {
     flex-direction: row;
-    justify-content: flex-end;
     flex-grow: 3;
-    text-align: center;
-    align-items: center;
+    align-items: flex-start;
     margin: 0px;
-    background-color: blue;
+    width: 100%;
+    background-color: black;
   }
 
-  /* DesktopView */
+  a:hover {
+    text-decoration: underline;
+    color: blue;
+    transition: 0.5s;
+  }
+
+  /* Landing Page DesktopView */
+
+  .toggle-button {
+    width: 176px;
+    float: right;
+    margin-right: -242px;
+  }
 
   .grid-container {
     width: 1200px;
@@ -426,6 +581,11 @@ main {
     width: 100%;
   }
 
+  .main-image {
+    max-width: 100%;
+    margin-top: 80px;
+  }
+
   .b-text {
     grid-row: 2;
     grid-column: 1/3;
@@ -434,7 +594,7 @@ main {
     font-family: "Permanent Marker", cursive;
     text-align: left;
     letter-spacing: 4px;
-    color: blue;
+    color: black;
     font-size: 62px;
   }
 
@@ -465,33 +625,187 @@ main {
     grid-column: 1/3;
   }
 
-  .d-textfooter h1 {
-    font-family: "Permanent Marker", cursive;
-    margin-left: 28px;
-    padding-right: 102px;
-    text-align: left;
-    letter-spacing: 4px;
-    font-size: 48px;
+  .d-textfooter button {
     display: inline;
-    color: blue;
+    font-size: 26px;
+    background-color: blue;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    border-radius: 14px;
+    border: none;
+    margin-left: 130px;
+    width: 180px;
+    padding: 16px;
   }
 
   .social-icon {
     grid-row: 3;
     grid-column: 3/4;
+    max-width: 14%;
+    display: block;
+    margin-top: 30px;
+    border: solid 2px;
   }
 
-  /* contact page desktop view */
+  .social-buttons button {
+    display: inline;
+    font-size: 26px;
+    background-color: blue;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    border-radius: 14px;
+    border: none;
+    margin-left: 130px;
+    width: 180px;
+    padding: 16px;
+  }
+
+  /* About Page Desktop View */
+
+  .grid-container {
+    width: 1200px;
+
+    display: grid;
+
+    grid-template-rows: [h-line-1] 1fr [h-line-2] 1fr [h-line-3] 1fr [h-line-4];
+    grid-template-columns: [v-line-1] 1fr [v-line-2] 1fr [v-line-3] 1fr [v-line-4];
+
+    grid-gap: 8px;
+    height: 100vh;
+  }
+
+  .a-img-about {
+    grid-row: 1;
+    grid-column: 1/2;
+  }
+
+  .main-image-about {
+    max-width: 100%;
+    margin-top: 272px;
+    margin-left: 52px;
+    border: solid blue 6px;
+  }
+
+  .b-text-about {
+    grid-row: 1;
+    grid-column: 2/4;
+  }
+
+  .b-text-about h1 {
+    font-family: "Permanent Marker", cursive;
+    margin-top: 96px;
+    margin-left: 146px;
+    text-align: right;
+    letter-spacing: 4px;
+    color: black;
+  }
+
+  .b-text-about p {
+    color: white;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    line-height: 44px;
+    padding: 38px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 66px;
+    margin-left: 48px;
+  }
+
+  .d-textfooter-about {
+    grid-row: 2;
+    grid-column: 1/5;
+  }
+
+  .d-textfooter-about h1 {
+    font-family: "Permanent Marker", cursive;
+    margin-top: -13px;
+    margin-left: 56px;
+    text-align: left;
+    letter-spacing: 4px;
+    color: black;
+    width: 100%;
+  }
+
+  .d-textfooter-about p {
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    line-height: 44px;
+    padding: 38px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 66px;
+    margin-left: 48px;
+  }
+
+  .c-image-about {
+    grid-row: 3;
+    grid-column: 1/3;
+  }
+
+  .main-image3 {
+    margin-left: 156px;
+    margin-top: -68px;
+    max-width: 65%;
+    border: blue solid 4px;
+  }
+
+  .social-buttons {
+    grid-row: 4;
+    grid-column: 2/4;
+  }
+
+  .social-buttons button {
+    display: inline;
+    font-size: 26px;
+    background-color: blue;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    border-radius: 14px;
+    border: none;
+    margin-left: 68px;
+    margin-bottom: 50px;
+    width: 226px;
+    padding: 16px;
+  }
+
+  #specificP {
+    margin-top: -5px;
+    margin-left: 155px;
+    padding: 32px;
+    text-align: left;
+  }
+
+  /* Contact Page Desktop View */
 
   .toggle-button-contact {
-    width: 140px;
+    width: 176px;
     float: right;
-    margin: 6px;
+    margin-right: -242px;
+  }
+
+  .float-hide h1 {
+    display: block;
+    font-size: 80px;
   }
 
   .form-container input {
     width: 56%;
     display: block;
-    padding: 8px;
+    padding: 16px;
+  }
+
+  .contact-container {
+    padding-bottom: 6px;
+    background-color: black;
+    margin-right: 42px;
+    margin-left: 42px;
+    margin-bottom: 12px;
+    max-width: 70%;
   }
 }
