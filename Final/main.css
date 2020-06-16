@@ -157,6 +157,124 @@ main {
   border: solid 2px;
 }
 
+/* blog page mobile view */
+
+.main-image-blog {
+  max-width: 100%;
+}
+
+iframe {
+  width: 360px;
+  height: 345px;
+}
+
+.a-text h1 {
+  font-family: "Permanent Marker", cursive;
+  margin: 16px;
+  text-align: center;
+  letter-spacing: 4px;
+  color: black;
+}
+
+.b-text-blog {
+  text-align: center;
+  padding: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 32px;
+  padding: 22px;
+  letter-spacing: 2px;
+}
+
+.c-text h1 {
+  font-family: "Permanent Marker", cursive;
+  margin: 16px;
+  text-align: center;
+  letter-spacing: 4px;
+  color: black;
+}
+
+.h-text h1 {
+  font-family: "Permanent Marker", cursive;
+  margin: 16px;
+  text-align: center;
+  letter-spacing: 4px;
+  color: black;
+}
+
+.d-text {
+  text-align: center;
+  padding: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 32px;
+  padding: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.e-text {
+  text-align: center;
+  padding: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 32px;
+  padding: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.f-text {
+  text-align: center;
+  padding: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 32px;
+  padding: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.g-text {
+  text-align: center;
+  padding: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 32px;
+  padding: 22px;
+  letter-spacing: 2px;
+}
+
+.i-text {
+  text-align: center;
+  padding: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 32px;
+  padding: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.j-text {
+  text-align: center;
+  padding: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 32px;
+  padding: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.social-buttons-blog button {
+  display: block;
+  font-size: 26px;
+  background-color: blue;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  border-radius: 14px;
+  border: none;
+  margin-left: 108px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  width: 160px;
+  padding: 8px;
+}
+
 /* about page mobile view */
 
 .b-text-about h1 {
@@ -176,6 +294,7 @@ main {
   padding: 22px;
   letter-spacing: 2px;
   margin-bottom: 24px;
+  text-transform: uppercase;
 }
 
 .d-textfooter-about p {
@@ -187,6 +306,7 @@ main {
   padding: 22px;
   letter-spacing: 2px;
   margin-bottom: 66px;
+  text-transform: uppercase;
 }
 
 .d-textfooter-about h1 {
@@ -197,7 +317,7 @@ main {
   color: black;
 }
 
-.d-footer-about button {
+.social-buttons button {
   display: block;
   font-size: 26px;
   background-color: blue;
@@ -205,19 +325,15 @@ main {
   font-family: "Permanent Marker", cursive;
   border-radius: 14px;
   border: none;
-  margin-left: 297px;
-  margin-top: 32px;
+  margin-left: 108px;
   margin-bottom: 32px;
-  width: 180px;
-  padding: 16px;
+  width: 160px;
+  padding: 8px;
 }
 
 /* contact page mobile view */
 
 .float-hide {
-  font-family: "Permanent Marker", cursive;
-  text-align: left;
-  letter-spacing: 4px;
   color: white;
 }
 
@@ -461,6 +577,153 @@ main {
     margin-bottom: 66px;
   }
 
+  .social-buttons button {
+    display: block;
+    font-size: 26px;
+    background-color: blue;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    border-radius: 14px;
+    border: none;
+    margin-left: 297px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 180px;
+    padding: 16px;
+  }
+
+  /* Medium View Blog Page */
+
+  .main-image-blog {
+    max-width: 100%;
+  }
+
+  iframe {
+    width: 750px;
+    height: 500px;
+    margin-top: 12px;
+  }
+
+  .a-text h1 {
+    font-family: "Permanent Marker", cursive;
+    margin: 16px;
+    text-align: left;
+    letter-spacing: 4px;
+    color: black;
+    font-size: 40px;
+    margin-top: 42px;
+  }
+
+  .b-text-blog {
+    text-align: left;
+    padding: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 32px;
+    padding: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .c-text h1 {
+    font-family: "Permanent Marker", cursive;
+    margin: 16px;
+    text-align: left;
+    letter-spacing: 4px;
+    color: black;
+    font-size: 40px;
+    margin-top: 42px;
+  }
+
+  .h-text h1 {
+    font-family: "Permanent Marker", cursive;
+    margin: 16px;
+    text-align: left;
+    letter-spacing: 4px;
+    color: black;
+    font-size: 40px;
+    margin-top: 42px;
+  }
+
+  .d-text {
+    text-align: left;
+    padding: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 32px;
+    padding: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+
+  .e-text {
+    text-align: left;
+    padding: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 32px;
+    padding: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+
+  .f-text {
+    text-align: left;
+    padding: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 32px;
+    padding: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+
+  .g-text {
+    text-align: left;
+    padding: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 32px;
+    padding: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .i-text {
+    text-align: left;
+    padding: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 32px;
+    padding: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+
+  .j-text {
+    text-align: left;
+    padding: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 32px;
+    padding: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+
+  .social-buttons-blog button {
+    display: block;
+    font-size: 26px;
+    background-color: blue;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    border-radius: 14px;
+    border: none;
+    margin-left: 297px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 180px;
+    padding: 16px;
+  }
+
   /* Medium View Contact Page */
 
   .contact-container {
@@ -634,7 +897,6 @@ main {
     border-radius: 14px;
     border: none;
     margin-left: 130px;
-    width: 180px;
     padding: 16px;
   }
 
@@ -656,7 +918,6 @@ main {
     border-radius: 14px;
     border: none;
     margin-left: 130px;
-    width: 180px;
     padding: 16px;
   }
 
@@ -769,8 +1030,6 @@ main {
     border-radius: 14px;
     border: none;
     margin-left: 68px;
-    margin-bottom: 50px;
-    width: 226px;
     padding: 16px;
   }
 
@@ -779,6 +1038,119 @@ main {
     margin-left: 155px;
     padding: 32px;
     text-align: left;
+  }
+
+  /* Blog Page Desktop View */
+
+  .grid-container {
+    width: 1200px;
+
+    display: grid;
+
+    grid-template-rows: [h-line-1] 1fr [h-line-2] 1fr [h-line-3] 1fr [h-line-4];
+    grid-template-columns: [v-line-1] 1fr [v-line-2] 1fr [v-line-3] 1fr [v-line-4];
+
+    grid-gap: 8px;
+    height: 100vh;
+  }
+
+  .a-img-blog {
+    grid-row: 2;
+    grid-column: 1/4;
+    margin: auto;
+  }
+
+  .a-text {
+    grid-row: 1;
+    grid-column: 1/2;
+    margin-top: 50px;
+  }
+
+  .a-text h1 {
+    font-family: "Permanent Marker", cursive;
+    margin: 16px;
+    text-align: left;
+    letter-spacing: 4px;
+    color: black;
+    font-size: 44px;
+    margin-top: 101px;
+    margin-left: 76px;
+  }
+
+  .b-text-blog {
+    grid-row: 1;
+    grid-column: 2/4;
+    margin-top: 50px;
+  }
+
+  .c-text {
+    grid-row: 3;
+    grid-column: 1/2;
+  }
+
+  .c-text h1 {
+    font-family: "Permanent Marker", cursive;
+    margin: 16px;
+    text-align: left;
+    letter-spacing: 4px;
+    color: black;
+    font-size: 44px;
+    margin-top: 197px;
+    margin-left: 176px;
+  }
+
+  .d-text {
+    grid-row: 3;
+    grid-column: 2/4;
+    margin-top: 76px;
+  }
+
+  .e-text {
+    grid-row: 4;
+    grid-column: 1/4;
+    margin-left: 166px;
+  }
+
+  .f-text {
+    grid-row: 6;
+    grid-column: 1/4;
+    margin-left: 166px;
+  }
+
+  .g-text {
+    grid-row: 7;
+    grid-column: 1/4;
+    margin-left: 166px;
+  }
+
+  .h-text {
+    grid-row: 8;
+    grid-column: 1/4;
+    margin-left: 168px;
+  }
+
+  .i-text {
+    grid-row: 9;
+    grid-column: 1/3;
+    margin-left: 168px;
+  }
+
+  .j-text {
+    grid-row: 10;
+    grid-column: 1/4;
+    margin-left: 166px;
+  }
+
+  .social-buttons-blog {
+    grid-row: 11;
+    grid-column: 2;
+  }
+
+  .social-buttons-blog button {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 90px;
+    margin-right: 0px;
   }
 
   /* Contact Page Desktop View */
