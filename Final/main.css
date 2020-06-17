@@ -24,6 +24,7 @@ nav li {
   letter-spacing: 4px;
 }
 
+
 ul.nav-links {
   background-color: #0000ff;
   padding: 12px;
@@ -38,7 +39,7 @@ button a:hover{
   transition: .5s;
 }
 
-button :active{
+a:visited {
   color:black;
 }
 
@@ -68,10 +69,18 @@ ul.nav-links {
   clear: left;
 }
 
+
 body {
   margin: 0px;
 }
-
+h2{
+  text-align:left;
+  margin-left:40px;
+  margin-right:40px;
+  color:white;
+  font-family: "Montserrat", sans-serif ;
+  text-transform:uppercase;
+}
 main {
   width: 100%;
   margin: auto;
@@ -256,6 +265,19 @@ iframe {
   padding: 22px;
   letter-spacing: 2px;
   margin-bottom: 16px;
+}
+
+#learnMore {
+  display: block;
+  font-size: 26px;
+  background-color: blue;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  border-radius: 14px;
+  border: none;
+  width: 180px;
+  padding: 8px;
+  margin: auto;
 }
 
 .j-text {
@@ -1222,6 +1244,20 @@ iframe {
     margin-bottom: 32px;
     margin-left: 90px;
     margin-right: 0px;
+  }
+
+  #learnMore {
+
+    display: block;
+    font-size: 26px;
+    background-color: blue;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    border-radius: 14px;
+    border: none;
+    width: 220px;
+    padding: 8px;
+  
   }
 
   /* Contact Page Desktop View */

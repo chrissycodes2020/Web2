@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="script.js"></script>
     <title>BLD PWR Blog</title>
@@ -39,9 +40,11 @@
     <main>
       <div class="grid-container">
         <div class="box a-img-blog">
-          <iframe src="https://www.youtube.com/embed/6gXGVxTYFyc?autoplay=1">
+          <iframe id="removeFrame" src="https://www.youtube.com/embed/6gXGVxTYFyc?autoplay=1">
           </iframe>
         </div>
+
+
 
         <div class="box a-text">
           <h1>Measured Progress and Accountability</h1>
@@ -121,9 +124,10 @@
 
         <div class="box h-text">
           <h1>What will AB 392 do now?</h1>
+          <button id="learnMore">Learn More</button>
         </div>
 
-        <div class="box i-text">
+        <div class="i-text">
           <li>
             Update California’s use of force laws to the “necessary” standard,
             which will require that officers won’t use deadly force unless
